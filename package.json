@@ -1,0 +1,33 @@
+{
+  "name": "cynismeetbonheur-client",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start" : "webpack-dev-server",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pouetproduction/cynismeetbonheur-client.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pouetproduction/cynismeetbonheur-client/issues"
+  },
+  "homepage": "https://github.com/Pouetproduction/cynismeetbonheur-client#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.9.0"
+  }
+}
