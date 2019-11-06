@@ -1,11 +1,15 @@
-var path = require("path");
+const path = require('path')
+const webpack = require('webpack')
 
 module.exports = {
 
-  entry: "./src/app.js",
+  entry: "./js/app.js",
   output: {
-    path: path.resolve(__dirname, "dist"),
-    filename: "app.js"
+    filename: 'bundle.js',
+    path: path.resolve(__dirname, 'public')
+  },
+  devServer: {
+    contentBase: './public'
   },
   module: {
     rules: [
@@ -19,3 +23,18 @@ module.exports = {
     ]
   }
 };
+
+// const path = require('path')
+// const webpack = require('webpack')
+
+// module.exports = {
+//   entry: './js/app.js',
+//   output: {
+//     filename: 'bundle.js',
+//     path: path.resolve(__dirname, 'public')
+//   },
+//   devServer: {
+//     contentBase: './public'
+//   },
+
+// };
