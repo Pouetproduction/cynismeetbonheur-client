@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import ApiConnection from "./components/ApiConnection.jsx";
+import App from "./components/App.jsx";
 
 ReactDOM.render(
-  <ApiConnection value="Get Data" />,
+  <App />,
   document.getElementById('cb-app')
 );
