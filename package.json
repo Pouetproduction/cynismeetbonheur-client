@@ -17,9 +17,11 @@
   },
   "homepage": "https://github.com/Pouetproduction/cynismeetbonheur-client#readme",
   "dependencies": {
+    "@reduxjs/toolkit": "^1.0.4",
     "axios": "^0.19.0",
     "react": "^16.11.0",
-    "react-dom": "^16.11.0"
+    "react-dom": "^16.11.0",
+    "redux": "^4.0.4"
   },
   "devDependencies": {
     "@babel/core": "^7.6.4",
