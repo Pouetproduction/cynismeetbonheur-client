@@ -41,7 +41,7 @@ function get(url) {
   });
 }
 
-function post(url) {
+function post(url, data = {}) {
   return axiosInstance.post(url, data).catch(error => {
     console.warn(error);
 
@@ -64,4 +64,4 @@ function post(url) {
   });
 }
 
-export { axiosInstance, get, post };
+export { get, post };

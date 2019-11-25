@@ -1,10 +1,10 @@
-import * as axios from "../utils/axios";
+import * as middleWare from "../utils/axios";
 import { httpRoutes } from "../utils/config";
 
 const helloWorldApi = {
   helloWorld() {
     const helloWorldUrl = httpRoutes.helloWorld;
-    return axios.get(helloWorldUrl);
+    return middleWare.get(helloWorldUrl);
   }
 };
 
