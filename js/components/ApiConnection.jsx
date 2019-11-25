@@ -4,7 +4,7 @@ import messageApi from '../api/messageApi';
 
 const ApiConnection = function({value}) {
 
-	const testApiConnection = function() {
+	const printHelloWorld = function() {
 		helloWorldApi.helloWorld().then((response) => {
 			console.log(response);
 		});
@@ -17,7 +17,7 @@ const ApiConnection = function({value}) {
 	};
 
 	return <div>
-    <button onClick={testApiConnection}>{value}</button>
+    <button onClick={printHelloWorld}>{value}</button>
     <button onClick={postMessage}>Post message</button>
   </div>;
 };
