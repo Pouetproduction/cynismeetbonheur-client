@@ -14,9 +14,7 @@ const requestTimeOut = 600000;
 // httpRoutes
 const httpRoutes = {
   helloWorld: "/",
-  message : {
-    post : "/posts"
-  }
+  message : "/message",
 };
 
 export { baseAppRouter, requestTimeOut, httpRequest, httpRoutes };
