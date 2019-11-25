@@ -1,9 +1,9 @@
-import * as middleWare from "../utils/axios";
+import { post } from "../utils/axios";
 import { httpRoutes } from "../utils/config";
 
 const messageApi = {
   post() {
-    return middleWare.post(httpRoutes.message.post);
+    return post(httpRoutes.message.post);
   }
 };
 
